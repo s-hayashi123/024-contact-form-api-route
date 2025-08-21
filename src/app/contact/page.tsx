@@ -4,8 +4,6 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactSchema, ContactFormInput } from "../../../lib/schema";
 import { useState } from "react";
-import { da } from "zod/locales";
-import { boolean } from "zod";
 
 export default function ContactPage() {
   const {
