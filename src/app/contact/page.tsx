@@ -40,7 +40,7 @@ export default function ContactPage() {
 
       setSubmitStatus({ success: true, message: result.message });
       reset();
-    } catch (err) {
+    } catch (err: any) {
       setSubmitStatus({ success: false, message: err.message });
     }
   };
