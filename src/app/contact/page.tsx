@@ -1,4 +1,5 @@
 "use client";
+/* eslint @typescript-eslint/no-explicit-any: 0 */
 
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
